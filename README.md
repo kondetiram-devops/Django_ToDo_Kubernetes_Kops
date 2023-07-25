@@ -45,7 +45,7 @@ AmazonVPCFullAccess
 
 Then attach the IAM Role to the running KOPS Ubuntu Server from the Intance Actions --> Security --> Modify IAM Role --> Select the IAM Role created
 
-* If you want to use KOPS server local not hosted on AWS then we need to create a User in AWS IAM and attach the same above policies to it 
+# If you want to use KOPS server local not hosted on AWS then we need to create a User in AWS IAM and attach the same above policies to it 
 
 
 6. Create a S3 Bucket (To have etcd stored because to have HA) and use unique name:
